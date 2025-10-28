@@ -15,7 +15,7 @@ The goal of this project is to understand and implement basic **process manageme
 - Displays the **PID** of each created process
 
 **Error handling:**
-- Handlung of invalid commands and missing executables
+- Handling of invalid commands and missing executables
 
 **Signal preparation:**
 - Designed for later extension with signal handling ('SIGTSTP', 'SIGCONT', 'SIGTERM', 'SIGKILL')
