@@ -25,7 +25,12 @@ The goal of this project is to understand and implement basic **process manageme
 - cat /etc/passwd | grep root
 
 # To compile the progam:
+gcc -Wall -Wextra -o cpuloadd cpuloadd.c 
 gcc -Wall -Wextra -o shell shell.c
 
 # To run the shell:
 ./shell
+
+# To run cpu load with the shell:
+- ./cpuloadd
+- ./shell
